@@ -11,7 +11,7 @@ import SwiftUI
 struct HW_4_5_DYApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            StartView()
         }
     }
 }

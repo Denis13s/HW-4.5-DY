@@ -8,17 +8,29 @@
 
 /* Begin PBXBuildFile section */
 		04E6EA8F2B3C185B00B3A2B9 /* HW_4_5_DYApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E6EA8E2B3C185B00B3A2B9 /* HW_4_5_DYApp.swift */; };
-		04E6EA912B3C185B00B3A2B9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E6EA902B3C185B00B3A2B9 /* ContentView.swift */; };
+		04E6EA912B3C185B00B3A2B9 /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E6EA902B3C185B00B3A2B9 /* StartView.swift */; };
 		04E6EA932B3C185C00B3A2B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04E6EA922B3C185C00B3A2B9 /* Assets.xcassets */; };
 		04E6EA962B3C185C00B3A2B9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04E6EA952B3C185C00B3A2B9 /* Preview Assets.xcassets */; };
+		04E6EA9D2B3C18E000B3A2B9 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E6EA9C2B3C18DF00B3A2B9 /* Models.swift */; };
+		04E6EA9F2B3C191B00B3A2B9 /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E6EA9E2B3C191B00B3A2B9 /* DataStore.swift */; };
+		04E6EAA92B3C1C8E00B3A2B9 /* ContactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E6EAA82B3C1C8E00B3A2B9 /* ContactsView.swift */; };
+		04E6EAAB2B3C1C9A00B3A2B9 /* PhonesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E6EAAA2B3C1C9A00B3A2B9 /* PhonesView.swift */; };
+		04E6EAAD2B3C1EB100B3A2B9 /* ContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E6EAAC2B3C1EB100B3A2B9 /* ContactView.swift */; };
+		04E6EAB02B3C22F300B3A2B9 /* ContactSharedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E6EAAF2B3C22F300B3A2B9 /* ContactSharedView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		04E6EA8B2B3C185B00B3A2B9 /* HW-4.5-DY.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HW-4.5-DY.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04E6EA8E2B3C185B00B3A2B9 /* HW_4_5_DYApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HW_4_5_DYApp.swift; sourceTree = "<group>"; };
-		04E6EA902B3C185B00B3A2B9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		04E6EA902B3C185B00B3A2B9 /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
 		04E6EA922B3C185C00B3A2B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04E6EA952B3C185C00B3A2B9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		04E6EA9C2B3C18DF00B3A2B9 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		04E6EA9E2B3C191B00B3A2B9 /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
+		04E6EAA82B3C1C8E00B3A2B9 /* ContactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsView.swift; sourceTree = "<group>"; };
+		04E6EAAA2B3C1C9A00B3A2B9 /* PhonesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhonesView.swift; sourceTree = "<group>"; };
+		04E6EAAC2B3C1EB100B3A2B9 /* ContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactView.swift; sourceTree = "<group>"; };
+		04E6EAAF2B3C22F300B3A2B9 /* ContactSharedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactSharedView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +63,12 @@
 		04E6EA8D2B3C185B00B3A2B9 /* HW-4.5-DY */ = {
 			isa = PBXGroup;
 			children = (
-				04E6EA8E2B3C185B00B3A2B9 /* HW_4_5_DYApp.swift */,
-				04E6EA902B3C185B00B3A2B9 /* ContentView.swift */,
-				04E6EA922B3C185C00B3A2B9 /* Assets.xcassets */,
-				04E6EA942B3C185C00B3A2B9 /* Preview Content */,
+				04E6EAA02B3C1BBF00B3A2B9 /* App */,
+				04E6EAA42B3C1BE100B3A2B9 /* Resources */,
+				04E6EAA52B3C1BEA00B3A2B9 /* Services */,
+				04E6EAA72B3C1BF500B3A2B9 /* Models */,
+				04E6EAAE2B3C1FCE00B3A2B9 /* SharedViews */,
+				04E6EAA62B3C1BF100B3A2B9 /* Views */,
 			);
 			path = "HW-4.5-DY";
 			sourceTree = "<group>";
@@ -65,6 +79,58 @@
 				04E6EA952B3C185C00B3A2B9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		04E6EAA02B3C1BBF00B3A2B9 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				04E6EA8E2B3C185B00B3A2B9 /* HW_4_5_DYApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		04E6EAA42B3C1BE100B3A2B9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				04E6EA922B3C185C00B3A2B9 /* Assets.xcassets */,
+				04E6EA942B3C185C00B3A2B9 /* Preview Content */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		04E6EAA52B3C1BEA00B3A2B9 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				04E6EA9E2B3C191B00B3A2B9 /* DataStore.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		04E6EAA62B3C1BF100B3A2B9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				04E6EA902B3C185B00B3A2B9 /* StartView.swift */,
+				04E6EAA82B3C1C8E00B3A2B9 /* ContactsView.swift */,
+				04E6EAAC2B3C1EB100B3A2B9 /* ContactView.swift */,
+				04E6EAAA2B3C1C9A00B3A2B9 /* PhonesView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		04E6EAA72B3C1BF500B3A2B9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				04E6EA9C2B3C18DF00B3A2B9 /* Models.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		04E6EAAE2B3C1FCE00B3A2B9 /* SharedViews */ = {
+			isa = PBXGroup;
+			children = (
+				04E6EAAF2B3C22F300B3A2B9 /* ContactSharedView.swift */,
+			);
+			path = SharedViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +203,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04E6EA912B3C185B00B3A2B9 /* ContentView.swift in Sources */,
+				04E6EAB02B3C22F300B3A2B9 /* ContactSharedView.swift in Sources */,
+				04E6EA9D2B3C18E000B3A2B9 /* Models.swift in Sources */,
+				04E6EA9F2B3C191B00B3A2B9 /* DataStore.swift in Sources */,
+				04E6EA912B3C185B00B3A2B9 /* StartView.swift in Sources */,
+				04E6EAAB2B3C1C9A00B3A2B9 /* PhonesView.swift in Sources */,
+				04E6EAAD2B3C1EB100B3A2B9 /* ContactView.swift in Sources */,
+				04E6EAA92B3C1C8E00B3A2B9 /* ContactsView.swift in Sources */,
 				04E6EA8F2B3C185B00B3A2B9 /* HW_4_5_DYApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -271,7 +343,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"HW-4.5-DY/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"HW-4.5-DY/Resources/Preview Content\"";
 				DEVELOPMENT_TEAM = VDM65QNNS4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -300,7 +372,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"HW-4.5-DY/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"HW-4.5-DY/Resources/Preview Content\"";
 				DEVELOPMENT_TEAM = VDM65QNNS4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
